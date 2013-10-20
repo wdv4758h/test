@@ -3,23 +3,14 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Dormitory": "dorm"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           120.99645495414732,
           24.789771086190534
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.99744468927383,
-          24.787267829790753
         ]
       }
     },
@@ -73,6 +64,19 @@
             120.99744200706482,
             24.787270264889624
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Classroom": "class"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99745005369186,
+          24.787260524493863
         ]
       }
     }
