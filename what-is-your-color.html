@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html data-ng-app>
+<head>
+    <title>What is your color ~</title>
+    <meta charset="utf-8" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <style type="text/css">
+        .center * { text-align: center; }
+    </style>
+</head>
+<body class="center" bgcolor="{{ name }}">
+    <h1>Input some string ~</h1>
+    <div>
+        <input data-ng-init="name='chucknorris'" data-ng-model="name">
+    </div>
+</body>
+</html>
